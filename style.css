@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.center {
+  background: blueviolet;
+}
+head {
+  background: black;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+ol {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 30px;
+}
+
+body {
+  background-color: #581845;
+}
+
+header {
+  background: black;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.score {
+  margin: 20px auto;
+  border: 5px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 300px;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  padding: 15px, 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.badge {
+  background: magenta;
+  color: black;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#user {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+
+#comp {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+}
+
+.result {
+  font-size: 25px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+}
+.choice {
+  padding: 10px;
+  margin: 0 15px;
+  display: inline-block;
+}
+.choice:hover {
+  cursor: pointer;
+  background: whitesmoke;
+}
+#on-action {
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
